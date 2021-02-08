@@ -4,9 +4,11 @@
 		Para subir un solo archivo
 ******************************************************
 
-1- git add nombreArchivo
+1- git add "nombre de Archivo"  (si hay espacios usa ls comillassssss)
+
 
 2- Si queres checkeas con git status o con git diff
+
 
 3- Le mandas git commit -m "y una descripcion aca"  <------- RESPETA BIEN ESA ESTRUCTURA
 
