@@ -1,0 +1,31 @@
+
+
+******************************************************
+		Para subir un solo archivo
+******************************************************
+
+1- git add nombreArchivo
+
+2- Si queres checkeas con git status o con git diff
+
+3- Le mandas git commit -m "y una descripcion aca"  <------- RESPETA BIEN ESA ESTRUCTURA
+
+
+4- Le mandas git push (con esto lo subis al repositorio, en este paso te pide el user y pass)
+
+
+******************************************************
+		Para eliminar un solo archivo
+******************************************************
+
+
+1- git rm --cached el_nombre_de_mi_archivo.txt 
+
+2- git commit -m "elimine un archivoooo"
+
+3- git push
+
+
+
+
+
