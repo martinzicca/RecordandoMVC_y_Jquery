@@ -29,5 +29,15 @@
 
 
 
+******************************************************
+		Para eliminar un solo archivo
+******************************************************
+
+Para "crear un repositorio" usas "git init" y un par de comandos mas.
+
+Pero ojo que ya tenes un repositorio en gitHub para el proyecto de Damian.
+
+En este link tenes como linkea el repo de git hub a una solucion en el visual studio -------->  https://www.youtube.com/watch?v=gd-p2hJyaB8
+
 
 
