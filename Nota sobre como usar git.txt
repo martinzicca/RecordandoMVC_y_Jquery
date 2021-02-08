@@ -30,7 +30,7 @@
 
 
 ******************************************************
-		Para eliminar un solo archivo
+		Para crear un repositorio
 ******************************************************
 
 Para "crear un repositorio" usas "git init" y un par de comandos mas.
