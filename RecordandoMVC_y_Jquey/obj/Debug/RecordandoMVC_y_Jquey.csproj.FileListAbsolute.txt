@@ -166,6 +166,7 @@ C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\bin\es\S
 C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\obj\Debug\RecordandoMVC_y_Jquey.csprojAssemblyReference.cache
 C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\obj\Debug\RecordandoMVC_y_Jquey.csproj.CoreCompileInputs.cache
 C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\obj\Debug\RecordandoMVC_y_Jquey.csproj.CopyComplete
 C:\Users\Martin\Desktop\Git\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey\obj\Debug\RecordandoMVC_y_Jquey.dll
