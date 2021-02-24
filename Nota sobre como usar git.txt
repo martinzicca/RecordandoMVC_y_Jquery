@@ -40,4 +40,33 @@ Pero ojo que ya tenes un repositorio en gitHub para el proyecto de Damian.
 En este link tenes como linkea el repo de git hub a una solucion en el visual studio -------->  https://www.youtube.com/watch?v=gd-p2hJyaB8
 
 
+******************************************************
+		PROBLEMA CON EL GIT IGNORE
+******************************************************
+
+Tuve un problema y fue que al agregar los archivos al git ignore para que no se modifiquen al hacer rebuild de la aplicacion, hacia un rebuild y se modificaban igual...
+
+Era como que agregarlos al git ignore no surtia efecto...
+
+Luego investigando vi que si en algun momento del pasado habia subido esos archivos haciendo
+git push... ponerlos en el git ignore solamente no servia...
+
+Entonces, en conclusion:
+
+Si alguna vez subiste cierto archivo haciendo git push o git commit no alcanza con agregar ese archivo en el git ignore. Sino que aparte de eso tenes que eliminar ese archivo con un 
+git rm path/nombreDeMiArchivo.cs
+
+Luego de eliminarlo, haces un:
+
+ git add *  
+ git commit -m "elimino archivo para agregar al git ignore" 
+ git push
+
+Y recien ahi...si esta en el git ignore...cuando hagas rebuild..
+no deberia aparecer modificado.
+
+Esto yo lo hice con todas las dlls a la vez... eliminas con el rm poniendo la carpeta bin/debug/*.dll por ejemplo...
+
+
+se seguian
 
