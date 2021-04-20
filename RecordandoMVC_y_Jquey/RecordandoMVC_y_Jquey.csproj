@@ -179,6 +179,7 @@
     <Content Include="Content\uploadify.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="img\arrows-active.png" />
@@ -271,6 +272,10 @@
     <Content Include="fonts\fontawesome-webfont-62877.eot" />
     <Content Include="fonts\fontawesome-webfont-62877.ttf" />
     <Content Include="fonts\fontawesome-webfont-62877.woff" />
+    <Content Include="fonts\glyphicons-regular-0.eot" />
+    <Content Include="fonts\glyphicons-regular.eot" />
+    <Content Include="fonts\glyphicons-regular.ttf" />
+    <Content Include="fonts\glyphicons-regular.woff" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\counter.js" />
     <Content Include="Scripts\custom.js" />
