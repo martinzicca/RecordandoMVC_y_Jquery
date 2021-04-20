@@ -1,4 +1,9 @@
 
+******************************************************
+         Para hacer get Latest Version en git
+******************************************************
+git clone C:\Users\Martin\Desktop\Git Nuevo\RecordandoMVC_y_Jquey
+
 
 ******************************************************
 		Para subir un solo archivo
