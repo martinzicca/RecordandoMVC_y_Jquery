@@ -2,30 +2,188 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!-- start: Header -->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.html"><span>JANUX</span></a>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            <!-- start: Header Menu -->
+            <div class="nav-no-collapse header-nav">
+                <ul class="nav pull-right">
+                    <li class="dropdown hidden-phone">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="icon-bell"></i>
+                            <span class="badge red">7 </span>
+                        </a>
+                        <ul class="dropdown-menu notifications">
+                            <li class="dropdown-menu-title">
+                                <span>You have 11 notifications</span>
+                                <a href="#refresh"><i class="icon-repeat"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon blue"><i class="icon-user"></i></span>
+                                    <span class="message">New user registration</span>
+                                    <span class="time">1 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon green"><i class="icon-comment-alt"></i></span>
+                                    <span class="message">New comment</span>
+                                    <span class="time">7 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon green"><i class="icon-comment-alt"></i></span>
+                                    <span class="message">New comment</span>
+                                    <span class="time">8 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon green"><i class="icon-comment-alt"></i></span>
+                                    <span class="message">New comment</span>
+                                    <span class="time">16 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon blue"><i class="icon-user"></i></span>
+                                    <span class="message">New user registration</span>
+                                    <span class="time">36 min</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon yellow"><i class="icon-shopping-cart"></i></span>
+                                    <span class="message">2 items sold</span>
+                                    <span class="time">1 hour</span>
+                                </a>
+                            </li>
+                            <li class="warning">
+                                <a href="#">
+                                    <span class="icon red"><i class="icon-user"></i></span>
+                                    <span class="message">User deleted account</span>
+                                    <span class="time">2 hour</span>
+                                </a>
+                            </li>
+                            <li class="warning">
+                                <a href="#">
+                                    <span class="icon red"><i class="icon-shopping-cart"></i></span>
+                                    <span class="message">New comment</span>
+                                    <span class="time">6 hour</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon green"><i class="icon-comment-alt"></i></span>
+                                    <span class="message">New comment</span>
+                                    <span class="time">yesterday</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon blue"><i class="icon-user"></i></span>
+                                    <span class="message">New user registration</span>
+                                    <span class="time">yesterday</span>
+                                </a>
+                            </li>
+                            <li class="dropdown-menu-sub-footer">
+                                <a>View all notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- start: Notifications Dropdown -->
+                    <li class="dropdown hidden-phone">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="icon-calendar"></i>
+                            <span class="badge red">5 </span>
+                        </a>
+                        <ul class="dropdown-menu Tasks">
+                            <li class="dropdown-menu-title">
+                                <span>You have 17 Tasks in progress</span>
+                                <a href="#refresh"><i class="icon-repeat"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="header">
+                                        <span class="title">iOS Development</span>
+                                        <span class="percent"></span>
+                                    </span>
+                                    <div class="taskProgress progressSlim red">80</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="header">
+                                        <span class="title">Android Development</span>
+                                        <span class="percent"></span>
+                                    </span>
+                                    <div class="taskProgress progressSlim green">47</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="header">
+                                        <span class="title">ARM Development</span>
+                                        <span class="percent"></span>
+                                    </span>
+                                    <div class="taskProgress progressSlim yellow">32</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="header">
+                                        <span class="title">ARM Development</span>
+                                        <span class="percent"></span>
+                                    </span>
+                                    <div class="taskProgress progressSlim greenLight">63</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="header">
+                                        <span class="title">ARM Development</span>
+                                        <span class="percent"></span>
+                                    </span>
+                                    <div class="taskProgress progressSlim orange">80</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-menu-sub-footer">View all Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- end: Notifications Dropdown -->
+                    <!-- start: User Dropdown -->
+                    <li class="dropdown">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="halflings-icon white user"></i>Dennis Ji
+
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-menu-title">
+                                <span>Account Settings</span>
+                            </li>
+                            <li><a href="#"><i class="halflings-icon user"></i>Profile</a></li>
+                            <li><a href="login.html"><i class="halflings-icon off"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                    <!-- end: User Dropdown -->
+                </ul>
+            </div>
+            <!-- end: Header Menu -->
+
+        </div>
     </div>
 </div>
+<!-- start: Header -->
