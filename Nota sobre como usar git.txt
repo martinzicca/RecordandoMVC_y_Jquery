@@ -1,8 +1,16 @@
 
 ******************************************************
-         Para hacer get Latest Version en git
+         Para hacer get Latest Version en git 
 ******************************************************
 git clone C:\Users\Martin\Desktop\Git Nuevo\RecordandoMVC_y_Jquey
+
+
+******************************************************
+            Ruta para acceder al token
+******************************************************
+
+https://github.com/settings/tokens
+
 
 
 ******************************************************
