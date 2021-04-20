@@ -1,16 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @*<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - Mi aplicación ASP.NET</title>*@
+
+    <!-- start: Meta -->
+    <meta charset="utf-8">
+    <title>Bootstrap MetroTablero General by Dennis Ji for ARM demo</title>
+    <meta name="description" content="Bootstrap MetroTablero General">
+    <meta name="author" content="Dennis Ji">
+    <meta name="keyword" content="Metro, Metro UI,Tablero General, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <!-- end: Meta -->
+    <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- end: Mobile Specific -->
+    <!-- start: CSS -->
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/bootstrap-responsive.min.css" rel="stylesheet">
+    <link id="base-style" href="~/Content/style.css" rel="stylesheet">
+    <link id="base-style-responsive" href="~/Content/style-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- end: CSS -->
+    <!-- start: Favicon -->
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <!-- end: Favicon -->
+
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        @*<div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
@@ -26,18 +50,68 @@
                     <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                 </ul>
             </div>
-        </div>
+        </div>*@
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
+        @*<footer>
             <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+        </footer>*@
+        <footer>
+            <p>
+                <span style="text-align: left; float: left">&copy; 2013 <a href="http://themifycloud.com/downloads/janux-free-responsive-admin-dashboard-template/" alt="Bootstrap_Metro_Dashboard">Software de control de Stock</a></span>
+            </p>
         </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <!-- start: JavaScript-->
+
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/jquery-migrate-1.0.0.min.js"></script>
+
+    <script src="~/Scripts/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="~/Scripts/jquery.ui.touch-punch.js"></script>
+
+    @*<script src="~/Scripts/modernizr.js"></script>*@@*< ------ Esta es la de janux, no la inclui por ahora.*@
+    <script src="~/Scripts/modernizr-2.8.3.js"></script> @*< ------ Esta es la que venia con la creacion que hice del proyecto.*@
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.cookie.js"></script>
+    <script src='~/Scripts/fullcalendar.min.js'></script>
+    <script src='~/Scripts/jquery.dataTables.min.js'></script>
+
+    <script src="~/Scripts/excanvas.js"></script>
+    <script src="~/Scripts/jquery.flot.js"></script>
+    <script src="~/Scripts/jquery.flot.pie.js"></script>
+    <script src="~/Scripts/jquery.flot.stack.js"></script>
+    <script src="~/Scripts/jquery.flot.resize.min.js"></script>
+
+    <script src="~/Scripts/jquery.chosen.min.js"></script>
+    <script src="~/Scripts/jquery.uniform.min.js"></script>
+    <script src="~/Scripts/jquery.cleditor.min.js"></script>
+
+    <script src="~/Scripts/jquery.noty.js"></script>
+    <script src="~/Scripts/jquery.elfinder.min.js"></script>
+    <script src="~/Scripts/jquery.raty.min.js"></script>
+
+    <script src="~/Scripts/jquery.iphone.toggle.js"></script>
+    <script src="~/Scripts/jquery.uploadify-3.1.min.js"></script>
+    <script src="~/Scripts/jquery.gritter.min.js"></script>
+    <script src="~/Scripts/jquery.imagesloaded.js"></script>
+    <script src="~/Scripts/jquery.masonry.min.js"></script>
+    <script src="~/Scripts/jquery.knob.modified.js"></script>
+    <script src="~/Scripts/jquery.sparkline.min.js"></script>
+    <script src="~/Scripts/counter.js"></script>
+    <script src="~/Scripts/retina.js"></script>
+
+    <script src="~/Scripts/custom.js"></script>
+
+    <!-- end: JavaScript-->
+
 </body>
 </html>
