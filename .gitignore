@@ -4,3 +4,9 @@
 **/RecordandoMVC_y_Jquey/obj/Debug/*
 **/RecordandoMVC_y_Jquey/bin/*
 .vs/RecordandoMVC_y_Jquey/v16/.suo
+
+
+
+.vs/RecordandoMVC_y_Jquey/*
+**/RecordandoMVC_y_Jquey.Tests/obj/Release/*
+**/RecordandoMVC_y_Jquey/obj/Release/*
