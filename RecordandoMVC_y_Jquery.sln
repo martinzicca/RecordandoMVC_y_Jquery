@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordandoMVC_y_Jquery", "RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquery.csproj", "{49F67D3A-794C-4232-8716-FB6DD532D829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordandoMVC_y_Jquey.Tests", "RecordandoMVC_y_Jquey.Tests\RecordandoMVC_y_Jquey.Tests.csproj", "{8B425A80-4BE6-482E-A734-F2DA0A43743B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordandoMVC_y_Jquery.Tests", "RecordandoMVC_y_Jquey.Tests\RecordandoMVC_y_Jquery.Tests.csproj", "{8B425A80-4BE6-482E-A734-F2DA0A43743B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
