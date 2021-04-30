@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquey.csproj">
+    <ProjectReference Include="..\RecordandoMVC_y_Jquey\RecordandoMVC_y_Jquery.csproj">
       <Project>{49F67D3A-794C-4232-8716-FB6DD532D829}</Project>
-      <Name>RecordandoMVC_y_Jquey</Name>
+      <Name>RecordandoMVC_y_Jquery</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
